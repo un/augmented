@@ -7,7 +7,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>$(DEVELOPMENT_LANGUAGE)</string>
     <key>CFBundleDisplayName</key>
-    <string>Augmented</string>
+    <string>exo</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
@@ -27,14 +27,14 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>augmented</string>
-          <string>com.augmentedhq</string>
+          <string>exo</string>
+          <string>com.exohq</string>
         </array>
       </dict>
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>exp+augmented</string>
+          <string>exp+exo</string>
         </array>
       </dict>
     </array>
@@ -54,7 +54,7 @@
       <true/>
     </dict>
     <key>NSFaceIDUsageDescription</key>
-    <string>Allow Augmented to access your Face ID biometric data.</string>
+    <string>Allow exo to access your Face ID biometric data.</string>
     <key>NSUserActivityTypes</key>
     <array>
       <string>$(PRODUCT_BUNDLE_IDENTIFIER).expo.index_route</string>

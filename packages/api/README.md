@@ -1,6 +1,6 @@
-# @augmented/api
+# @exo/api
 
-Shared tRPC API definitions and utilities for Augmented applications.
+Shared tRPC API definitions and utilities for exo applications.
 
 ## Features
 
@@ -15,10 +15,10 @@ Shared tRPC API definitions and utilities for Augmented applications.
 
 ```typescript
 // apps/cloud/src/index.ts
-import { serve } from '@hono/node-server';
-import { Hono } from 'hono';
-import { trpcServer } from 'better-call/trpc';
-import { appRouter, createTRPCContext } from '@augmented/api';
+import { appRouter, createTRPCContext } from "@exo/api";
+import { serve } from "@hono/node-server";
+import { trpcServer } from "better-call/trpc";
+import { Hono } from "hono";
 
 const app = new Hono();
 
@@ -26,7 +26,7 @@ const app = new Hono();
 const trpcHandler = trpcServer({
   router: appRouter,
   createContext: (c) => createTRPCContext(c),
-  prefix: '/trpc'
+  prefix: "/trpc",
 });
 
 app.use(trpcHandler);
@@ -41,11 +41,12 @@ serve({
 
 ```typescript
 // apps/mobile/src/utils/api.ts
-import { createClient } from '@augmented/api/client';
-import { getToken } from './auth';
+import { createClient } from "@exo/api/client";
+
+import { getToken } from "./auth";
 
 export const api = createClient({
-  url: 'https://api.yourapp.com/trpc',
+  url: "https://api.yourapp.com/trpc",
   headers: async () => {
     const token = await getToken();
     return token ? { Authorization: `Bearer ${token}` } : {};
@@ -75,7 +76,7 @@ export const productRouter = router({
     .query(({ ctx, input }) => {
       // Implementation
     }),
-  
+
   create: protectedProcedure
     .input(z.object({ name: z.string() }))
     .mutation(({ ctx, input }) => {

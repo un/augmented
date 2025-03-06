@@ -24,7 +24,7 @@
 		866AE20D6758488F89CEB9F3 /* JetBrainsMono-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC96296430A44873BED07C4D /* JetBrainsMono-ExtraLightItalic.otf */; };
 		8DBEC9CCA76F408C80989671 /* JetBrainsMono-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B2715515690B46288C142DF8 /* JetBrainsMono-MediumItalic.otf */; };
 		8E0649B0BFE84143A43CAF32 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D766F09A944C2B93160821 /* noop-file.swift */; };
-		96905EF65AED1B983A6B3ABC /* libPods-Augmented.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Augmented.a */; };
+		96905EF65AED1B983A6B3ABC /* libPods-exo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-exo.a */; };
 		9ADFB622C5504EF3874C6739 /* JetBrainsMono-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F65D705E0E3D4788BFC79746 /* JetBrainsMono-BoldItalic.otf */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
@@ -35,38 +35,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* Augmented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Augmented.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Augmented/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Augmented/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Augmented/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Augmented/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Augmented/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* exo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = exo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = exo/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = exo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = exo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = exo/main.m; sourceTree = "<group>"; };
 		32CBF041043F458D9939B906 /* JetBrainsMono-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-ExtraBold.otf"; path = "../assets/fonts/JetBrainsMono-ExtraBold.otf"; sourceTree = "<group>"; };
 		42CE4333EF884D08AA49F1B0 /* JetBrainsMono-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-ExtraBoldItalic.otf"; path = "../assets/fonts/JetBrainsMono-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
 		53CB931A4BBF4C83826C08C4 /* JetBrainsMono-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-SemiBoldItalic.otf"; path = "../assets/fonts/JetBrainsMono-SemiBoldItalic.otf"; sourceTree = "<group>"; };
-		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Augmented.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Augmented.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-exo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D37D0C7C5E74A3DA6C65581 /* JetBrainsMono-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Bold.otf"; path = "../assets/fonts/JetBrainsMono-Bold.otf"; sourceTree = "<group>"; };
-		63D766F09A944C2B93160821 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "Augmented/noop-file.swift"; sourceTree = "<group>"; };
-		6C2E3173556A471DD304B334 /* Pods-Augmented.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augmented.debug.xcconfig"; path = "Target Support Files/Pods-Augmented/Pods-Augmented.debug.xcconfig"; sourceTree = "<group>"; };
+		63D766F09A944C2B93160821 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "exo/noop-file.swift"; sourceTree = "<group>"; };
+		6C2E3173556A471DD304B334 /* Pods-exo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exo.debug.xcconfig"; path = "Target Support Files/Pods-exo/Pods-exo.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3DB993E2F945D3A3AC7AD8 /* JetBrainsMono-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Thin.otf"; path = "../assets/fonts/JetBrainsMono-Thin.otf"; sourceTree = "<group>"; };
-		7A4D352CD337FB3A3BF06240 /* Pods-Augmented.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augmented.release.xcconfig"; path = "Target Support Files/Pods-Augmented/Pods-Augmented.release.xcconfig"; sourceTree = "<group>"; };
+		7A4D352CD337FB3A3BF06240 /* Pods-exo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exo.release.xcconfig"; path = "Target Support Files/Pods-exo/Pods-exo.release.xcconfig"; sourceTree = "<group>"; };
 		7D3794294DE14702A926D6BB /* JetBrainsMono-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Light.otf"; path = "../assets/fonts/JetBrainsMono-Light.otf"; sourceTree = "<group>"; };
 		95F6B79B330446FFAB066FFF /* JetBrainsMono-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-ExtraLight.otf"; path = "../assets/fonts/JetBrainsMono-ExtraLight.otf"; sourceTree = "<group>"; };
 		9C651B644964466B83EE0788 /* JetBrainsMono-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-SemiBold.otf"; path = "../assets/fonts/JetBrainsMono-SemiBold.otf"; sourceTree = "<group>"; };
 		A6B6AD51309746D5B89AE911 /* JetBrainsMono-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-LightItalic.otf"; path = "../assets/fonts/JetBrainsMono-LightItalic.otf"; sourceTree = "<group>"; };
-		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Augmented/SplashScreen.storyboard; sourceTree = "<group>"; };
+		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = exo/SplashScreen.storyboard; sourceTree = "<group>"; };
 		B2715515690B46288C142DF8 /* JetBrainsMono-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-MediumItalic.otf"; path = "../assets/fonts/JetBrainsMono-MediumItalic.otf"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		BC2EC4F6B2AD484AA93E1E44 /* JetBrainsMono-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Medium.otf"; path = "../assets/fonts/JetBrainsMono-Medium.otf"; sourceTree = "<group>"; };
 		CAD4F08C6F3243B5B4C811D8 /* JetBrainsMono-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Italic.otf"; path = "../assets/fonts/JetBrainsMono-Italic.otf"; sourceTree = "<group>"; };
 		D02F20D0449B4F2D82133075 /* JetBrainsMono-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-ThinItalic.otf"; path = "../assets/fonts/JetBrainsMono-ThinItalic.otf"; sourceTree = "<group>"; };
-		E0AE932E9E5DE12C212266BB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Augmented/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E0AE932E9E5DE12C212266BB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = exo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		E294D4EE40B74B7494635765 /* JetBrainsMono-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Regular.otf"; path = "../assets/fonts/JetBrainsMono-Regular.otf"; sourceTree = "<group>"; };
 		EC96296430A44873BED07C4D /* JetBrainsMono-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-ExtraLightItalic.otf"; path = "../assets/fonts/JetBrainsMono-ExtraLightItalic.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		ED4CA301025140A4B8E375F0 /* Augmented-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "Augmented-Bridging-Header.h"; path = "Augmented/Augmented-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED4CA301025140A4B8E375F0 /* exo-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "exo-Bridging-Header.h"; path = "exo/exo-Bridging-Header.h"; sourceTree = "<group>"; };
 		F65D705E0E3D4788BFC79746 /* JetBrainsMono-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-BoldItalic.otf"; path = "../assets/fonts/JetBrainsMono-BoldItalic.otf"; sourceTree = "<group>"; };
-		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Augmented/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-exo/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,14 +74,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96905EF65AED1B983A6B3ABC /* libPods-Augmented.a in Frameworks */,
+				96905EF65AED1B983A6B3ABC /* libPods-exo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* Augmented */ = {
+		13B07FAE1A68108700A75B9A /* exo */ = {
 			isa = PBXGroup;
 			children = (
 				BB2F792B24A3F905000567C9 /* Supporting */,
@@ -92,17 +92,17 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
 				63D766F09A944C2B93160821 /* noop-file.swift */,
-				ED4CA301025140A4B8E375F0 /* Augmented-Bridging-Header.h */,
+				ED4CA301025140A4B8E375F0 /* exo-Bridging-Header.h */,
 				E0AE932E9E5DE12C212266BB /* PrivacyInfo.xcprivacy */,
 			);
-			name = Augmented;
+			name = exo;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Augmented.a */,
+				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-exo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Augmented */,
+				13B07FAE1A68108700A75B9A /* exo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
@@ -133,17 +133,17 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Augmented.app */,
+				13B07F961A680F5B00A75B9A /* exo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92DBD88DE9BF7D494EA9DA96 /* Augmented */ = {
+		92DBD88DE9BF7D494EA9DA96 /* exo */ = {
 			isa = PBXGroup;
 			children = (
 				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
 			);
-			name = Augmented;
+			name = exo;
 			sourceTree = "<group>";
 		};
 		AA811CBD7A324CC3BDC2955C /* Resources */ = {
@@ -176,14 +176,14 @@
 				BB2F792C24A3F905000567C9 /* Expo.plist */,
 			);
 			name = Supporting;
-			path = Augmented/Supporting;
+			path = exo/Supporting;
 			sourceTree = "<group>";
 		};
 		D65327D7A22EEC0BE12398D9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C2E3173556A471DD304B334 /* Pods-Augmented.debug.xcconfig */,
-				7A4D352CD337FB3A3BF06240 /* Pods-Augmented.release.xcconfig */,
+				6C2E3173556A471DD304B334 /* Pods-exo.debug.xcconfig */,
+				7A4D352CD337FB3A3BF06240 /* Pods-exo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 		D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				92DBD88DE9BF7D494EA9DA96 /* Augmented */,
+				92DBD88DE9BF7D494EA9DA96 /* exo */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* Augmented */ = {
+		13B07F861A680F5B00A75B9A /* exo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Augmented" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "exo" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
 				62C730EB755DF13FC9271942 /* [Expo] Configure project */,
@@ -216,9 +216,9 @@
 			);
 			dependencies = (
 			);
-			name = Augmented;
-			productName = Augmented;
-			productReference = 13B07F961A680F5B00A75B9A /* Augmented.app */;
+			name = exo;
+			productName = exo;
+			productReference = 13B07F961A680F5B00A75B9A /* exo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Augmented" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "exo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,7 +247,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Augmented */,
+				13B07F861A680F5B00A75B9A /* exo */,
 			);
 		};
 /* End PBXProject section */
@@ -313,7 +313,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Augmented-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-exo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Augmented/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-exo/expo-configure-project.sh\"\n";
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -345,7 +345,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Augmented/Pods-Augmented-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-exo/Pods-exo-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/EXUpdates/EXUpdates.bundle",
@@ -378,7 +378,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Augmented/Pods-Augmented-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exo/Pods-exo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA3F0515544FB8F903C1EDA1 /* [CP] Embed Pods Frameworks */ = {
@@ -387,7 +387,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Augmented/Pods-Augmented-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-exo/Pods-exo-frameworks.sh",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoSQLite/crsqlite.framework/crsqlite",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
 			);
@@ -398,7 +398,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Augmented/Pods-Augmented-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exo/Pods-exo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -420,18 +420,18 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-Augmented.debug.xcconfig */;
+			baseConfigurationReference = 6C2E3173556A471DD304B334 /* Pods-exo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Augmented/Augmented.entitlements;
+				CODE_SIGN_ENTITLEMENTS = exo/exo.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
-				INFOPLIST_FILE = Augmented/Info.plist;
+				INFOPLIST_FILE = exo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
@@ -441,9 +441,9 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.augmentedhq;
-				PRODUCT_NAME = Augmented;
-				SWIFT_OBJC_BRIDGING_HEADER = "Augmented/Augmented-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exohq;
+				PRODUCT_NAME = exo;
+				SWIFT_OBJC_BRIDGING_HEADER = "exo/exo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,13 +453,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-Augmented.release.xcconfig */;
+			baseConfigurationReference = 7A4D352CD337FB3A3BF06240 /* Pods-exo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Augmented/Augmented.entitlements;
+				CODE_SIGN_ENTITLEMENTS = exo/exo.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Augmented/Info.plist;
+				INFOPLIST_FILE = exo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
@@ -469,9 +469,9 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.augmentedhq;
-				PRODUCT_NAME = Augmented;
-				SWIFT_OBJC_BRIDGING_HEADER = "Augmented/Augmented-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.exohq;
+				PRODUCT_NAME = exo;
+				SWIFT_OBJC_BRIDGING_HEADER = "exo/exo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -599,7 +599,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Augmented" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "exo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -608,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Augmented" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "exo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -1,4 +1,4 @@
-# Augmented
+# exo
 
 The Open Source Ai Agent to make you live Longer, Sharper and Better
 
@@ -22,6 +22,6 @@ to run in dev mode:
 
 Join the discord for discussions
 
-[Join the waitlist](https://augmentedhq.com)
-[Follow on X](https://x.com/augmentedhq.com)
+[Join the waitlist](https://exohq.com)
+[Follow on X](https://x.com/exohq.com)
 [Chat on Discord](https://discord.gg/tKmSyU8GBT)

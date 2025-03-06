@@ -1,4 +1,4 @@
-# @augmented/cloud
+# @exo/cloud
 
 A Hono server with tRPC v11 integration and BetterAuth middleware.
 

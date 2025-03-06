@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "^@augmented/"
+        "^@exo/"
       ],
       "enabled": false
     }
